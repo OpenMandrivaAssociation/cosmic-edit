@@ -12,7 +12,7 @@ Source1:        vendor.tar.xz
 Source2:        cargo_config
 
 BuildRequires:  rust-packaging
-BuildRequires:  git-core
+#BuildRequires:  git-core
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  just
 BuildRequires:  pkgconfig
