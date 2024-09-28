@@ -2,12 +2,12 @@
 %define         appname com.system76.CosmicEdit
 Name:           cosmic-edit
 Version:        1.0.0
-Release:        0.alpha1.0
+Release:        0.alpha2.0
 Summary:        COSMIC Text Editor
 Group:          Desktop/COSMIC
 License:        GPL-3.0-only
 URL:            https://github.com/pop-os/cosmic-edit
-Source0:        https://github.com/pop-os/cosmic-applibrary/archive/epoch-%{version}-alpha.1/%{name}-epoch-%{version}-alpha.1.tar.gz
+Source0:        https://github.com/pop-os/cosmic-applibrary/archive/epoch-%{version}-alpha.2/%{name}-epoch-%{version}-alpha.2.tar.gz
 Source1:        vendor.tar.xz
 Source2:        cargo_config
 
@@ -22,7 +22,7 @@ BuildRequires:  pkgconfig(xkbcommon)
 Text editor for the COSMIC desktop
 
 %prep
-%autosetup -n %{name}-epoch-%{version}-alpha.1 -a1 -p1
+%autosetup -n %{name}-epoch-%{version}-alpha.2 -a1 -p1
 mkdir .cargo
 cp %{SOURCE2} .cargo/config
 
