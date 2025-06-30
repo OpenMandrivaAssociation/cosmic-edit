@@ -6,6 +6,16 @@ git = "https://github.com/DioxusLabs/taffy"
 rev = "7781c70"
 replace-with = "vendored-sources"
 
+[source."git+https://github.com/ellieplayswow/xdg-mime-rs?branch=feature/get-same-as"]
+git = "https://github.com/ellieplayswow/xdg-mime-rs"
+branch = "feature/get-same-as"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/jackpot51/polling.git?branch=master"]
+git = "https://github.com/jackpot51/polling.git"
+branch = "master"
+replace-with = "vendored-sources"
+
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
 git = "https://github.com/jackpot51/rust-atomicwrites"
 replace-with = "vendored-sources"
@@ -63,6 +73,11 @@ replace-with = "vendored-sources"
 [source."git+https://github.com/pop-os/winit.git?tag=iced-xdg-surface-0.13"]
 git = "https://github.com/pop-os/winit.git"
 tag = "iced-xdg-surface-0.13"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/rust-onig/rust-onig.git?branch=main"]
+git = "https://github.com/rust-onig/rust-onig.git"
+branch = "main"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/wash2/accesskit?tag=iced-xdg-surface-0.13"]
