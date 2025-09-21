@@ -17,6 +17,7 @@ BuildRequires:  rust-packaging
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  just
 BuildRequires:  pkgconfig
+BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(xkbcommon)
 
 %description
