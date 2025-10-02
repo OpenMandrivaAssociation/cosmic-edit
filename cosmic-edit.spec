@@ -2,7 +2,7 @@
 %define         appname com.system76.CosmicEdit
 Name:           cosmic-edit
 Version:        1.0.0
-%define beta beta.1
+%define beta beta.1.1
 Release:        %{?beta:0.%{beta}.}1
 Summary:        COSMIC Text Editor
 Group:          Desktop/COSMIC
